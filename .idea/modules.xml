@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java Collection Framework Practice.iml" filepath="$PROJECT_DIR$/Java Collection Framework Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Collection Framework.iml" filepath="$PROJECT_DIR$/Java Collection Framework.iml" />
     </modules>
   </component>
 </project>
