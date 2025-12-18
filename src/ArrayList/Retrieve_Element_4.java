@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Retrieve_Element {
+public class Retrieve_Element_4 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         List<String> stringList=new ArrayList<String>();
