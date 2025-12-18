@@ -17,8 +17,10 @@ public class Retrieve_Element {
         for(String ls:stringList){
             System.out.println(ls);
         }
+        System.out.println("**************************************");
         String element=stringList.get(0);
         System.out.println(element);
+        System.out.println("***************************************");
         System.out.println(stringList.get(3));
 
     }
