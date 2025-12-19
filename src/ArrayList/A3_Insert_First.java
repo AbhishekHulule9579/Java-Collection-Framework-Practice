@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Insert_First_3 {
+public class A3_Insert_First {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         List<String>stringList=new ArrayList<String>();

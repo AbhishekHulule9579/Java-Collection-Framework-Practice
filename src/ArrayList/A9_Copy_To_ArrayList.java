@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Copy_To_ArrayList_9 {
+public class A9_Copy_To_ArrayList {
     public static void main(String[] args) {
         List<String> List1=new ArrayList<String>();
         List1.add("Red");

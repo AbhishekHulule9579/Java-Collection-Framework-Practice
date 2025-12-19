@@ -1,14 +1,12 @@
 package ArrayList;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
-import java.util.Scanner;
-import java.util.Stack;
 
-public class Remove_Element_6 {
+public class A8_Sort_Arraylist {
     public static void main(String[] args) {
-
-        List<String>stringList=new ArrayList<String>();
+        List<String> stringList=new ArrayList<String>();
         stringList.add("Red");
         stringList.add("Green");
         stringList.add("Orange");
@@ -18,8 +16,7 @@ public class Remove_Element_6 {
             System.out.print(str+" ");
         }
         System.out.println();
-        System.out.println("The Arraylist after removing the third element");
-        stringList.remove(3);
+        Collections.sort(stringList);
         for(String str:stringList){
             System.out.print(str+" ");
         }
