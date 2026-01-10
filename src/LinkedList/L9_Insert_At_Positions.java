@@ -19,6 +19,5 @@ public class L9_Insert_At_Positions {
 
         l_list.addAll(1,new_l_list);
         System.out.println("Updated Linked List "+l_list);
-
     }
 }
