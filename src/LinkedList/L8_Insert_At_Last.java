@@ -2,7 +2,7 @@ package LinkedList;
 
 import java.util.LinkedList;
 
-public class L8_Insret_At_Last {
+public class L8_Insert_At_Last {
     public static void main(String[] args) {
         LinkedList<String>l_list=new LinkedList<String>();
         l_list.add("Red");
