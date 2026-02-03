@@ -2,7 +2,7 @@ package HashSet;
 
 import java.util.HashSet;
 
-public class H5_Chechk_If_Empty {
+public class H5_Check_If_Empty {
     public static void main(String[] args) {
         HashSet<String>h_set=new HashSet<String>();
         h_set.add("Red");
