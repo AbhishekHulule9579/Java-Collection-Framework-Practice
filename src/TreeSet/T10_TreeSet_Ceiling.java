@@ -5,7 +5,6 @@ import java.util.TreeSet;
 public class T10_TreeSet_Ceiling {
     public static void main(String[] args) {
         TreeSet<Integer> tree_num=new TreeSet<Integer>();
-        TreeSet<Integer>treeheadset=new TreeSet<Integer>();
         tree_num.add(10);
         tree_num.add(22);
         tree_num.add(36);

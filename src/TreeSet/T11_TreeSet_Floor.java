@@ -7,7 +7,7 @@ import java.util.TreeSet;
 public class T11_TreeSet_Floor {
     public static void main(String[] args) {
         TreeSet<Integer>tree_num=new TreeSet<Integer>();
-        TreeSet<Integer>treeheadset=new TreeSet<Integer>();
+
         tree_num.add(10);
         tree_num.add(22);
         tree_num.add(36);
@@ -17,7 +17,7 @@ public class T11_TreeSet_Floor {
         tree_num.add(82);
         tree_num.add(89);
         tree_num.add(14);
-        System.out.println("less than or equal to 86: "+treeheadset.floor(86));
-        System.out.println("Less than or equal to 29: "+treeheadset.floor(29));
+        System.out.println("less than or equal to 86: "+tree_num.floor(86));
+        System.out.println("Less than or equal to 29: "+tree_num.floor(29));
     }
 }
