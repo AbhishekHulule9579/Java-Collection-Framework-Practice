@@ -9,7 +9,7 @@ public class T8_Compare_TreeSet {
         t_set1.add("Green");
         t_set1.add("Black");
         t_set1.add("White");
-        System.out.println("Free Tree set: "+t_set1);
+        System.out.println("First Tree set: "+t_set1);
 
         TreeSet<String> t_set2 = new TreeSet<String>();
         t_set2.add("Red");
