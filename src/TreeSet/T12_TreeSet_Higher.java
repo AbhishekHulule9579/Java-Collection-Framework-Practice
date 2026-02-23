@@ -4,7 +4,9 @@ import java.util.TreeSet;
 
 public class T12_TreeSet_Higher {
     public static void main(String[] args) {
+
         TreeSet<Integer>tree_num=new TreeSet<Integer>();
+
         tree_num.add(10);
         tree_num.add(22);
         tree_num.add(36);
