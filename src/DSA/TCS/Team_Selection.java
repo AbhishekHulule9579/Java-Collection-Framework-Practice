@@ -1,8 +1,53 @@
 package DSA.TCS;
 
-public class Team_Selection {
-    public static void main(String[] args) {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
+public class Team_Selection {
+    public static List<Integer> smallestTeam(String requiredSkills,String[] candidates){
+        int m=requiredSkills.length();
+        Map<Character,Integer>skillMap=new HashMap<>();
+        for(int i=0;i<m;i++){
+            skillMap.put(requiredSkills.charAt(i),i);
+        }
+        Map<Integer,List<Integer>>dp=new HashMap<>();
+        dp.put(0,new ArrayList<>());
+        for(int i=0;i<candidates.length;i++){
+            int candidateMask=0;
+            for(char c:candidates[i].toCharArray()){
+                if(skillMap.containsKey(c)){
+                    candidateMask |=(1<<skillMap.get(c));
+                }
+            }
+            Map<Integer,List<Integer>>newDp=new HashMap<>(dp);
+            for(int mask:dp.keySet()){
+                int combinedMask = mask | candidateMask;
+                if (!newDp.containsKey(combinedMask) ||
+                        newDp.get(combinedMask).size() > dp.get(mask).size() + 1) {
+
+                    List<Integer> newTeam = new ArrayList<>(dp.get(mask));
+                    newTeam.add(i);
+                    newDp.put(combinedMask, newTeam);
+                }
+            }
+            dp=newDp;
+        }
+        int fullMask=(1<<m)-1;
+        return dp.get(fullMask);
+    }
+
+    public static void main(String[] args) {
+        String requiredSkills = "abcd";
+        String[] candidates = {"ab", "bc", "cd", "d"};
+
+        System.out.println(smallestTeam(requiredSkills, candidates));
+
+        String requiredSkills2 = "abc";
+        String[] candidates2 = {"a", "bc", "c"};
+
+        System.out.println(smallestTeam(requiredSkills2, candidates2));
     }
 }
 
