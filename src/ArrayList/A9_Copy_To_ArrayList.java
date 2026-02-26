@@ -27,7 +27,7 @@ public class A9_Copy_To_ArrayList {
         }
         System.out.println();
         System.out.println("Copy List from list1 to list 2 after copy");
-        Collections.copy(List1,List2);
+        Collections.copy(List2,List1);
         System.out.println("List 1 "+ List1);
         System.out.println("List 2 "+ List2);
     }

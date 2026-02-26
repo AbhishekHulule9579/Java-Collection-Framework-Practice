@@ -17,7 +17,7 @@ public class T8_Compare_TreeSet {
         t_set2.add("Black");
         t_set2.add("Orange");
         System.out.println("Second Tree set: "+t_set2);
-        TreeSet<String>new_tree=new TreeSet<String>();
+        //TreeSet<String>new_tree=new TreeSet<String>();
         
         for(String element:t_set1){
             System.out.println(t_set2.contains(element)?"Yes":"No");

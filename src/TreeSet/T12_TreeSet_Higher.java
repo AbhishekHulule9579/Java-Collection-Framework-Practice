@@ -12,7 +12,7 @@ public class T12_TreeSet_Higher {
         tree_num.add(36);
         tree_num.add(25);
         tree_num.add(16);
-        tree_num.add(70);
+        tree_num.add(76);
         tree_num.add(82);
         tree_num.add(89);
         tree_num.add(14);

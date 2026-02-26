@@ -18,7 +18,7 @@ public class H9_Compare_2_Hashset {
         h_set1.add("Black");
         h_set1.add("White");
 
-        HashSet<String> result=new HashSet<String>();
+       // HashSet<String> result=new HashSet<String>();
         for(String element:h_set){
             System.out.println(h_set1.contains(element)? "Yes":"No");
         }
