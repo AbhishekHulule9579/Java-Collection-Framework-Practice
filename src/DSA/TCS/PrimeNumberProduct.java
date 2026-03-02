@@ -48,6 +48,7 @@ Write a program that accepts two integer inputs, X and Y, which denote
 specific positions in the sequence of prime numbers. The program should
 identify the prime numbers at these positions, compute their product,
 subtract 1 from the result, and display the final output.
+
 TestCases:
 3 5
 Output
