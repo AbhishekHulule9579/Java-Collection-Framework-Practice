@@ -36,21 +36,16 @@ public class MaxBreadScore {
 Divide the array into exactly k non-empty contiguous groups (subarrays)
 👉 For each group, calculate its average
 👉 Return the maximum possible sum of averages of these k groups
-
 At the end, you return:
-
 ceil(maximum sum of averages)
 nums = [9, 1, 2, 3, 9]
 k = 3
 One optimal partition is:
-
 [9] | [1,2,3] | [9]
 Averages:
-
 9
 (1+2+3)/3 = 2
 9
 Total = 9 + 2 + 9 = 20 ✅
-
 So output = 20
  */
