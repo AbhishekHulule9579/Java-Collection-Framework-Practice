@@ -1,4 +1,4 @@
-package DSA.TCS;
+package DSA.TCS.Problem_On_Number;
 
 
 import java.util.ArrayList;

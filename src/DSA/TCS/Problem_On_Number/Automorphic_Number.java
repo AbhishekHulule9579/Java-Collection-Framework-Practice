@@ -1,4 +1,4 @@
-package DSA.TCS;
+package DSA.TCS.Problem_On_Number;
 import java.util.Scanner;
 
 public class Automorphic_Number {
@@ -26,4 +26,10 @@ public class Automorphic_Number {
 /*
  A number is called an Automorphic number if and only if
  * its square ends in the same digits as the number itself.
+ input --> 7
+ output --> not automorphic number
+ 7 × 7 = 49
+ 2) input -->5
+ output --> Automorphic number
+ 5 × 5 = 25
  */
