@@ -10,6 +10,7 @@ public class L12_Remove_At {
         l_list.add("Black");
         l_list.add("Pink");
         l_list.add("orange");
+        
         System.out.println("The original linkedlist is "+l_list);
         l_list.remove(2);
         System.out.println("The updated linked list after the removal of index 2 is: "+l_list);
