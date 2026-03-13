@@ -16,6 +16,7 @@ public class T12_TreeSet_Higher {
         tree_num.add(82);
         tree_num.add(89);
         tree_num.add(14);
+        
         System.out.println("Strictly greater than 76: "+tree_num.higher(76));
         System.out.println("Strictly higher than 31: "+tree_num.higher(31));
     }
