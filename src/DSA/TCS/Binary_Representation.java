@@ -45,4 +45,17 @@ public class Binary_Representation {
  * given as an input. Convert decimal value to binary representation.
  * Toggle all bits of it after the most significant bit including the most significant bit.
  * Print the positive integer value after toggling all bits”.
+ Given a positive integer, convert it to binary and toggle all the bits.
+Toggle means:
+1 → 0
+0 → 1
+Example:
+Input:
+10
+Binary Representation:
+1010
+After Toggle:
+0101
+Output:
+5
  */
