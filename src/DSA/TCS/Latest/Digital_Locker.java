@@ -1,6 +1,5 @@
 package DSA.TCS.Latest;
 
-
 import java.util.*;
 public class Digital_Locker {
     public static void main(String args[]) {
