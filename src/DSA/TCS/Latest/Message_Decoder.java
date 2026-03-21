@@ -28,3 +28,9 @@ public class Message_Decoder {
         System.out.println(result);
     }
 }
+/*
+input==
+a3b2c1
+output==
+abbbcc
+ */
