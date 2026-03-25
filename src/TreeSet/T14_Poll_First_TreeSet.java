@@ -18,6 +18,6 @@ public class T14_Poll_First_TreeSet {
 
         System.out.println("Original TreeSet: "+tree_num);
         System.out.println("Remove the first (lowest) element: "+tree_num.pollFirst());
-        System.out.println("treeset after removing the poll first (lowest) element "+tree_num);
+        System.out.println("TreeSet after removing the poll first (lowest) element "+tree_num);
     }
 }
