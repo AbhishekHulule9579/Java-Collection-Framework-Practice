@@ -21,6 +21,7 @@ public class T28_Smallest_In_Matrix {
                 }
             }
         }
+
         System.out.println("Second lowest "+secondLow);
     }
 }
