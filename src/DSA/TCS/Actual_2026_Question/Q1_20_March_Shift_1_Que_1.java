@@ -17,12 +17,18 @@ public class Q1_20_March_Shift_1_Que_1 {
             System.out.println("12000");
         } else if (n==12) {
             System.out.println("15000");
-        }else {
+        } else if (n<0) {
+            System.out.println("invalid");
+        } else if (n==0) {
+            System.out.println("0");
+        } else {
             System.out.println("Error!");
         }
     }
 }
 /*
+TCS 20 march morning shift coding question 1(easy)
+
 Gym Membership Cost
 Description: A simple problem requiring calculation
 of total gym fees based on specific plan durations (e.g., 1, 3, 6, 9, 12 months)
