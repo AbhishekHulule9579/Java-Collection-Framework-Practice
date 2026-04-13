@@ -18,7 +18,7 @@ public class Q1_20_March_Shift_1_Que_1 {
         } else if (n==12) {
             System.out.println("15000");
         }else {
-            System.out.println("Error");
+            System.out.println("Error!");
         }
     }
 }
