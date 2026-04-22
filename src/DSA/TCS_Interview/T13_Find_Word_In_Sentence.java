@@ -17,8 +17,7 @@ public class T13_Find_Word_In_Sentence {
         String target="pune";
         if(isFound(str,target)){
             System.out.println("Found");
-        }
-        else{
+        }else{
             System.out.println("Not found");
         }
     }
