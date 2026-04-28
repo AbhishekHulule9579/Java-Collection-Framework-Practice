@@ -23,6 +23,7 @@ public class MakeTripletEquals {
             && list.get(1).equals(list.get(2))){
                 return step;
             }
+            
             if(list.get(0).equals(list.get(1))
             && list.get(1)+1 ==list.get(2)
             || list.get(1).equals(list.get(2))
