@@ -28,4 +28,7 @@ public class I6_MinimumInsertionABC {
 /*
  Given a string made up of 'a', 'b', and 'c',
  determine the minimum insertions required so that it becomes a valid repeating "abc" sequence.
+
+ input --> abcaac
+ output --> 2
  */
