@@ -7,6 +7,7 @@ import java.util.PriorityQueue;
 public class P10_Convert_Priority_To_Array {
     public static void main(String[] args) {
         PriorityQueue<Integer>pq1=new PriorityQueue<>();
+
         pq1.add(10);
         pq1.add(22);
         pq1.add(36);
