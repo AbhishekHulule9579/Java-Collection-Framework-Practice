@@ -8,6 +8,7 @@ public class Autmobile_Company {
             System.out.println("-1");
             return;
         }
+        
         int fourwheelers=(w-2*v)/2;
         int twowheelers=v-fourwheelers;
 

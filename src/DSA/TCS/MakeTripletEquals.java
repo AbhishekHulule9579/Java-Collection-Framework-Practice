@@ -11,6 +11,7 @@ public class MakeTripletEquals {
         if(list.get(0).equals(list.get(1)) && list.get(1).equals(list.get(2))){
             return 0;
         }
+        
         int step=0;
         while(true){
             list.set(0,list.get(0)+1);
