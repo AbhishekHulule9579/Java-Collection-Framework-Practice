@@ -14,7 +14,6 @@ public class H4_Remove_All_Mapping {
         System.out.println("All values are: "+map1);
 
         map1.clear();
-
         System.out.println("Values are: "+map1);
     }
 }
