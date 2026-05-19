@@ -9,7 +9,8 @@ public class I6_MinimumInsertionABC {
             if(str.charAt(i)==expected){
                 i++;
                 expected=(expected=='a')?'b':(expected=='b')?'c':'a';
-            }else {
+            }
+            else {
                 insertion++;
                 expected=(expected=='a')?'b':(expected=='b')?'c':'a';
             }
