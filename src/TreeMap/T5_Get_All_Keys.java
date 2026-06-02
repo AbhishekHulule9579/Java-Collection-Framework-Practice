@@ -10,7 +10,6 @@ public class T5_Get_All_Keys {
         treeMap.put("t2","Black");
         treeMap.put("t3","Blue");
         treeMap.put("t4","Yellow");
-
         Set<String> key=treeMap.keySet();
         for(String keys:key){
             System.out.println(keys);
