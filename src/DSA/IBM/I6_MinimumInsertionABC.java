@@ -10,6 +10,7 @@ public class I6_MinimumInsertionABC {
                 i++;
                 expected=(expected=='a')?'b':(expected=='b')?'c':'a';
             }
+                
             else {
                 insertion++;
                 expected=(expected=='a')?'b':(expected=='b')?'c':'a';
