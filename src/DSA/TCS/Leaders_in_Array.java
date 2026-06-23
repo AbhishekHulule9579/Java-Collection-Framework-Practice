@@ -4,33 +4,45 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Leaders_in_list {
-    public static List<Integer>findleader(List<Integer>list){
-        List<Integer>leader=new ArrayList<>();
-        int n=list.size();
-        int maxsofar= list.get(n-1);
-        leader.add(maxsofar);
-        for(int i=n-2;i>=0;i--){
-            if(list.get(i)>=maxsofar){
-                maxsofar=list.get(i);
-                leader.add(maxsofar);
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Leaders_in_Array {
+
+    public static List<Integer> findLeader(int[] arr) {
+        List<Integer> leaders = new ArrayList<>();
+
+        int n = arr.length;
+        int maxSoFar = arr[n - 1];
+
+        leaders.add(maxSoFar);
+
+        for (int i = n - 2; i >= 0; i--) {
+            if (arr[i] >= maxSoFar) {
+                maxSoFar = arr[i];
+                leaders.add(maxSoFar);
             }
         }
-        return leader;
+
+        return leaders;
     }
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        List<Integer> list=new ArrayList<>();
-        for(int i=0;i<n;i++){
-            list.add(sc.nextInt());
-        }
-        List<Integer>result=findleader(list);
-        for(int num:result){
-            System.out.println(num+" ");
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
         }
 
+        List<Integer> result = findLeader(arr);
+
+        for (int num : result) {
+            System.out.print(num + " ");
+        }
     }
 }
 /*
