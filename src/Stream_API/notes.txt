@@ -1,0 +1,4 @@
+if you want to represent the group of object as a single entity then it is known as collections
+
+if you want to process the collection then the stream is used
+
