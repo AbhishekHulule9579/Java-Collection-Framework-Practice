@@ -2,3 +2,27 @@ if you want to represent the group of object as a single entity then it is known
 
 if you want to process the collection then the stream is used
 
+stream()
+filter()
+map()
+collect()
+count()
+sorted()
+
+---------------------
+comparator
+
+(i1,i2)
+comparator --> compare(obj1,obj2)
+    return  -ve iff obj1 as to comes before obj2
+    return  +ve iff obj1 has to comes after obj2
+    return  0  iff obj1 and obj2 is equals
+
+
+descending order
+10,20
+
+(i1,i2)-> (i1<i2)?+1:(i1>i2)?-1:0;
+
+sorted() ==> According to the default natural sorting order
+sorted(comparator)==> Customized sorting
